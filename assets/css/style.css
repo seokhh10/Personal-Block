@@ -48,3 +48,25 @@ main {
     height: calc(100vh - 50px);
 }
 
+
+
+/* image */
+aside img {
+    border-radius: 25%;
+    max-width: 100%;
+    max-height: 100%;
+    /* object-fit: contain;   */
+}
+
+
+/* Smaller screens */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    
+    aside, section {
+        flex: none;
+        width: 100%;
+    }
+}

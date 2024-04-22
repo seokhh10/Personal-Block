@@ -6,13 +6,13 @@
     <!-- CSS links -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/form.css">
-    <title>Blog EHH</title>
+    <title>Blog EHH🤖</title>
 
 </head>
 <body>
-     <header>
-        <button></button>
+    <header>
         <h1>Ernesto Hidalgo</h1>
+        <button class="mode-button">🌝🌚</button>
     </header>
 
     <main>
@@ -23,19 +23,20 @@
         <section>
             <h2>Connect what's on your mind!</h2>
             <form>
-                <label>Username:</label>
-                <input type="text"/>
+                <label for="postUsername">Username:</label>
+                <input name="username" id="postUsername" type="text"/>
 
-                <label>Title:</label>
-                <input type="text"/>
+                <label for="messageTitle">Title:</label>
+                <input name="title" id="postTitle" type="text"/>
 
-                <label>Content:</label>
-                <textarea type="text"></textarea>
+                <label for="postContent">Content:</label>
+                <textarea name="content" id="postContent"    type="text" rows="4"></textarea>
 
-                <input type="submit"/>
+                <input type="submit" value="Send post!"/>
             </form>
         </section>
     </main>
+
     <!-- JavaScrip links -->
     <script src="./assets/js/logic.js"></script>
     <script src="./assets/js/form.js"></script>

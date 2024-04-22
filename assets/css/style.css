@@ -1,0 +1,50 @@
+:root {
+    --main-color: #3490db;
+    --secondary-color:  
+    --accent-color: #3490db;
+    --second-accent-color: #000000;
+    --text-color: #000000;
+    --header-text-color: white;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: var(--main-color);
+    color: var(--header-text-color);
+    padding: 10px 20px;
+    display: flex;
+    /* align-items: center; */
+    border-bottom: 10px double var(--second-accent-color);
+}
+
+.mode-button {
+    background-color: var(--accent-color);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 30px;
+    float: right;
+}
+
+
+h1 {
+    margin: 0;
+    flex-grow: 1;
+}
+
+h2 {
+    color: var(--text-color);
+}
+
+
+main {
+    display: flex;
+    height: calc(100vh - 50px);
+}
+

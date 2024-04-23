@@ -53,6 +53,7 @@ main {
 aside {
     background-color:  var(--secondary-color);
     border-right:  10px double var(--second-accent-color);
+
     flex: 2;
     color: var(--text-color);
     padding: 20px;
@@ -69,7 +70,15 @@ aside img {
     border-radius: 25%;
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain;  
+    object-fit: contain; 
+}
+
+/* form */
+section {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 

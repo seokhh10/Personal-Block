@@ -54,7 +54,7 @@ aside {
     background-color:  var(--secondary-color);
     border-right:  10px double var(--second-accent-color);
 
-    flex: 2;
+    flex: 5;
     color: var(--text-color);
     padding: 20px;
     display: flex;

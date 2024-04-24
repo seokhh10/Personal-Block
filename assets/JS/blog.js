@@ -1,3 +1,7 @@
+const mainElement = document.querySelector('main');
+const backButtom = document.querySelector('.back-button');
+
+
 const blogPosts = JSON.parse(localStorage.getItem('blogPosts')) || [];
 
 const blogPostsContainer = document.getElementById('blogPosts');
@@ -17,5 +21,6 @@ blogPosts.forEach (post => {
 
 
 
-
-
+backButtom.addEventListener("click", () => {
+    location.href = "./index.html";
+});

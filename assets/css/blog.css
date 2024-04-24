@@ -30,3 +30,11 @@ h1 {
     flex: content;
     margin: 10px;
 }
+
+main {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    align-content: start;
+    flex-grow: 1;
+}

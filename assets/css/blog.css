@@ -31,7 +31,7 @@ h1 {
     margin: 10px;
 }
 
-main {
+div {
     display: grid;
     gap: 20px;
     padding: 20px;

@@ -19,15 +19,15 @@ const blogPostsContainer = document.getElementById('blogPosts');
 // });
 
 
-// style card elements
+// Display info blog post - style card elements
 
 blogPosts.forEach(post => {
     const postElement = document.createElement('div');
     postElement.classList.add('blog-card');
     postElement.innerHTML = `
     <h2 class="blog-title">${post.title}</h2>
-    <p class="blog-user"><strong>By:</strong> ${post.username}</p>
     <p class="blog-content">${post.post}</p>
+    <p class="blog-user"><strong>By:</strong> ${post.username}</p>
     <hr>`;
     blogPostsContainer.appendChild(postElement);
 });

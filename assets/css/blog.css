@@ -42,28 +42,29 @@ div {
 /* Elements Blog Data */
 
 .blog-card {
-    border: 1px solid grey;
-    border-radius: 8px;
+    border: 3px solid black;
+    border-radius: 5px;
     padding: 2px;
     margin-bottom: 5px;
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px ;
 }
 
-.blog-title {
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-
-.blog-usernmae {
-    color: #666; /* Set color for the author text */
-    font-style: italic; /* Make the author text italic */
-  }
-  
-  /* Style for the content of the blog */
-  .blog-content {
-    line-height: 1; /* Set line height for better readability */
+/* Footer and Media Query */
+footer {
+    background-color: #3490db;
+    color: white;
+    
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    bottom: 0;
+    border-top: 10px double black;
   }
 
-
- 
+  @media (max-with: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+  }

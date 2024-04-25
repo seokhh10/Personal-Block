@@ -15,8 +15,7 @@ blogPosts.forEach(post => {
     postElement.innerHTML = `
     <h2 class="blog-title">${post.title}</h2>
     <p class="blog-content">${post.post}</p>
-    <p class="blog-user"><strong>By:</strong> ${post.username}</p>
-    <hr>`;
+    <p class="blog-user"><strong>By:</strong> ${post.username}</p>`;
     blogPostsContainer.appendChild(postElement);
 });
 

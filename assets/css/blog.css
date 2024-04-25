@@ -11,7 +11,8 @@ body, html {
     color: black;
 }
 
-.dark-mode header, footer {
+.dark-mode header, 
+.dark-mode footer {
     background-color: #3490db ;
     opacity: 0.3;
     color: #fff;
@@ -24,6 +25,7 @@ body, html {
     opacity: 0.3
 
 }
+
 
 /* header-button */
 header {

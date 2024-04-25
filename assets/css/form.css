@@ -24,3 +24,9 @@ input[type="submit"] {
     opacity: 0.3
 }
 
+.dark-mode input,
+.dark-mode textarea {
+    opacity: 0.4;
+}
+
+

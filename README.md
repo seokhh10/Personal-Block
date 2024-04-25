@@ -27,8 +27,9 @@ The application displays a list of blog posts pulled from local storage, allowin
 
 ## Images of the Blog
 
-![Screenshot](./"Index HTML Screenshot")
-![Screenshot](./ "Blog HTML Screenshot")
+![Screenshot](./assets/images/Main%20blog.png "Index HTML")
+![Screenshot](./assets/images/Post%20blog.png "Blog HTML")
+![Screenshot](./assets/images/Localstorage%20blog.png "Local Storage")
 
-
+## Deployed Web Page
 

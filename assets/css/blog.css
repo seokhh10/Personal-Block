@@ -10,6 +10,21 @@ body, html {
     background-color: #222;
     color: black;
 }
+
+.dark-mode header, footer {
+    background-color: #3490db ;
+    opacity: 0.3;
+    color: #fff;
+    
+}
+
+
+.dark-mode .blog-card {
+    background-color: #fff;
+    opacity: 0.3
+
+}
+
 /* header-button */
 header {
     background-color: #3490db;
@@ -56,7 +71,7 @@ div {
 }
 
 /* Footer and Media Query */
-footer{
+footer { 
     background-color: #3490db;
     color: white;
     position: fixed;
@@ -66,6 +81,7 @@ footer{
     width: 100%;
     bottom: 0;
     border-top: 10px double rebeccapurple;
+    opacity: 1;
   }
 
   @media (max-with: 768px) {

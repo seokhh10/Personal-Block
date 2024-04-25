@@ -1,13 +1,3 @@
-/* :root {
-    --main-color: #3490db;
-    --secondary-color:  
-    --accent-color: #3490db;
-    --second-accent-color: #000000;
-    --text-color: #000000;
-    --header-text-color: white;
-} */
-
-
 body, html {
     margin: 0;
     padding: 0;
@@ -19,12 +9,29 @@ body, html {
     color: #fff;
 
 }
+
+.dark-mode header {
+    background-color: #3490db ;
+    color: #fff;
+    opacity: 0.3
+
+}
+
 header {
     background-color: #3490db ;
     color: white;
     padding: 10px 20px;
     display: flex;
     border-bottom: 10px double rebeccapurple;
+}
+
+.post-button {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
 }
 /* Theme button */
 .mode-button {
@@ -41,10 +48,6 @@ h1 {
     margin: 0;
     flex-grow: 1;
 }
-
-/* h2 {
-    color: black;
-} */
 
 
 main {

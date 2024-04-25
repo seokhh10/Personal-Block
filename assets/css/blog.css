@@ -33,10 +33,12 @@ h1 {
 
 div {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     padding: 20px;
     align-content: start;
-    flex-grow: 1;
+    
+
 }
 
 /* Elements Blog Data */
@@ -47,7 +49,7 @@ div {
     padding: 2px;
     margin-bottom: 5px;
     background-color: #fff;
-    box-shadow: 0 4px 8px ;
+    box-shadow: 0 3px 6px ;
 }
 
 /* Footer and Media Query */

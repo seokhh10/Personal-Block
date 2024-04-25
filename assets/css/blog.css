@@ -31,10 +31,39 @@ h1 {
     margin: 10px;
 }
 
-main {
+div {
     display: grid;
     gap: 10px;
     padding: 20px;
     align-content: start;
     flex-grow: 1;
 }
+
+/* Elements Blog Data */
+
+.blog-card {
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 2px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.blog-usernmae {
+    color: #666; /* Set color for the author text */
+    font-style: italic; /* Make the author text italic */
+  }
+  
+  /* Style for the content of the blog */
+  .blog-content {
+    line-height: 1; /* Set line height for better readability */
+  }
+
+
+ 

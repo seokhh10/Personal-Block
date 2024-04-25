@@ -6,6 +6,8 @@ body, html {
     display: flex;
     flex-direction: column;
 }
+
+/* light-dark mode */
 .dark-mode {
     background-color: #222;
     color: black;
@@ -36,6 +38,7 @@ header {
     align-items: center;
     border-bottom: 10px double rebeccapurple;
 }
+
 /* buttons to move between the pages */
 .mode-button, .back-button {
     background-color: var(--accent-color);

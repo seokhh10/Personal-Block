@@ -10,6 +10,7 @@ const userName = document.querySelector('#postUsername').value.trim();
 const titlePost = document.querySelector('#postTitle').value.trim();
 const contentPost = document.querySelector('#postContent').value.trim();
 document.getElementById("postUsername").value = '';
+
 // Data local storage
 if (userName && titlePost && contentPost) {
     const blogPost = {

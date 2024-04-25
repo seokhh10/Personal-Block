@@ -19,6 +19,7 @@ input[type="submit"] {
     margin-top: 10px;
 }
 
+/* light-dark mode */
 .dark-mode input[type="submit"] {
     background-color: #3490db;
     opacity: 0.3

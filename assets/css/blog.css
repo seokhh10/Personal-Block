@@ -17,7 +17,7 @@ header {
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    border-bottom: 10px double black;
+    border-bottom: 10px double rebeccapurple;
 }
 
 .mode-button, .back-button {
@@ -56,16 +56,16 @@ div {
 }
 
 /* Footer and Media Query */
-footer {
+footer{
     background-color: #3490db;
     color: white;
-    
+    position: fixed;
     padding: 10px 20px;
     text-align: center;
     margin-top: auto;
     width: 100%;
     bottom: 0;
-    border-top: 10px double black;
+    border-top: 10px double rebeccapurple;
   }
 
   @media (max-with: 768px) {

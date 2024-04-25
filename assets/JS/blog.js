@@ -20,6 +20,9 @@ blogPosts.forEach(post => {
     blogPostsContainer.appendChild(postElement);
 });
 
+
 backButtom.addEventListener("click", () => {
     location.href = "./index.html";
 });
+
+

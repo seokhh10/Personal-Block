@@ -13,5 +13,5 @@ themeChangerButton.addEventListener("click", function() {
 
 
 postButton.addEventListener("click", () => {
-    window.location.href = "./blog.html";
+    location.href = "blog.html";
 })

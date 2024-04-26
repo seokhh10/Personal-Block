@@ -23,7 +23,7 @@ if (userName && titlePost && contentPost) {
     existingPosts.push(blogPost);
     localStorage.setItem('blogPosts', JSON.stringify(existingPosts));
 
-    window.location.href = "/blog.html"; 
+    window.location.href = "./blog.html"; 
 } else { 
     alert('Please fill in all the fields.');
 }

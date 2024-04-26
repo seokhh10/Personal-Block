@@ -28,9 +28,6 @@ if (userName && titlePost && contentPost) {
     alert('Please fill in all the fields.');
 }
 
-console.log(userName);
-console.log(titlePost);
-console.log(contentPost);
 
 }
 

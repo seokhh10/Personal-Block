@@ -21,7 +21,7 @@ blogPosts.forEach(post => {
 
 
 backButton.addEventListener("click", () => {
-    location.href = "./index.html";
+    location.href = "index.html";
 });
 
 
